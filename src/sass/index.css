@@ -81,7 +81,7 @@ font-family: 'Song Myung', serif;
 
 .header, .about,
 .welcom, .reserv,
-.gallery, .footer {
+.gallery, .footer-container {
   width: 1920px;
 }
 
