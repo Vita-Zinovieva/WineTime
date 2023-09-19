@@ -78,9 +78,10 @@ font-family: 'Song Myung', serif;
   left: 60px;
   top: 50px;
 }
---root .header, --root .about,
---root .welcom, --root .reserv,
---root .gallery, --root .footer {
+
+.header, .about,
+.welcom, .reserv,
+.gallery, .footer {
   width: 1920px;
 }
 
