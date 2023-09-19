@@ -1,17 +1,14 @@
 .footer-container{
-  margin: 0 auto 50px auto;
-  width: 1800px;
+   width: 1920px;
 }
 
 .footer-wraper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
+  width: 1800px;
   background: url(../images/footer.jpg), lightgray 0px -426.917px / 100% 205.703% no-repeat;
+  margin: 0 auto 50px auto;
 }
 
 .footer-box-title {

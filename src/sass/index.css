@@ -81,7 +81,7 @@ font-family: 'Song Myung', serif;
 
 .header, .about,
 .welcom, .reserv,
-.gallery, .footer-container {
+.gallery {
   width: 1920px;
 }
 
@@ -435,7 +435,6 @@ span {
   align-items: flex-start;
   width: 50%;
   align-self: flex-end;
-  gap: 13px;
   height: 595px;
   flex-wrap: wrap;
 }
@@ -785,7 +784,6 @@ object-fit: cover;
 .Property1Default {
   width: 1190px;
   height: auto;
-  left: 20px;
   top: 20px;
   position: absolute;
   transition: opacity 1s ease;
@@ -964,19 +962,16 @@ object-fit: cover;
 }
 
 .footer-container {
-  margin: 0 auto 50px auto;
-  width: 1800px;
+  width: 1920px;
 }
 
 .footer-wraper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
+  width: 1800px;
   background: url(../images/footer.jpg), lightgray 0px -426.917px/100% 205.703% no-repeat;
+  margin: 0 auto 50px auto;
 }
 
 .footer-box-title {
