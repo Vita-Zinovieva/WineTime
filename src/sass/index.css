@@ -78,6 +78,9 @@ font-family: 'Song Myung', serif;
   left: 60px;
   top: 50px;
 }
+--root section, --root footer {
+  width: 1920px;
+}
 
 .header {
   position: relative;
