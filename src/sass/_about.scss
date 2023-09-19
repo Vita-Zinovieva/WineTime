@@ -1,0 +1,50 @@
+.about-container {
+  width: 1063px;
+  height: 795px;
+  align-items: center;
+  margin: 100px auto;
+}
+.about-title {
+  color: var(--broun, #33230A);
+  font-family: Song Myung;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-transform: uppercase;
+  padding:0 0 15px;
+}
+.title-havi-broun{
+  color: var(--broun, #33230A);
+}
+
+.about-h3,
+.about-h4 {
+  color: var(--broun, #33230A);
+  text-align: center;
+  font-family: Song Myung;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about-h4 {
+  padding: 25px;
+}
+.about-pagraf {
+  height: 380px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+}
+span {
+  width: auto;
+  color: var(--broun, #33230A);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}

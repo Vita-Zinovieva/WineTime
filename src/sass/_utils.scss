@@ -1,0 +1,49 @@
+/* font-family: 'Mr De Haviland', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Song Myung', serif; 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto&family=Song+Myung&display=swap" rel="stylesheet">*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto&family=Song+Myung&display=swap');
+
+--root {
+  --broun:rgba(51,35,10,1);
+  --milk: rgba(250,246,210,1);
+  --hover-color: rgba(21, 58, 22, 1);
+  --alto: rgba(217, 217, 217, 0.102);
+
+--font-size-xs: 14px;
+--font-size-s: 16px;
+--font-size-m: 20px;
+--font-size-l: 24px;
+--font-size-xl: 36px;
+--font-size-xxl: 40px;
+--font-size-xxxl: 64px; 
+
+--fontF-havi: 'Mr De Haviland';
+--fontF-roboto: 'Roboto';
+--fontF-song: 'Song Myung';
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: Proxima Nova Regular;
+  font-size: 16px;
+  line-height: 2;
+  flex-direction: column;
+  display: flex;
+  background-color: rgba(250,246,210,1);
+  position: relative;
+  width: 1920px;
+}
+.container {
+  margin: 0px auto;
+  padding: 0 16px;
+  max-width: 1800px;
+  position: absolute;
+  height: auto;
+  left: 60px;
+  top: 50px;
+}
+}

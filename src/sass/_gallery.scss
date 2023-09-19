@@ -1,0 +1,343 @@
+.gallery-container{
+  width: 1190px;
+  margin: 100px auto;
+}
+.gallery-title{
+  width: 696px;
+  height: 349px;
+  text-align: center;
+  margin: 0 auto 100px auto;
+ 
+}
+.gallery-block{
+  display: flex;
+  gap: 19px;
+  align-items: flex-start;
+  height: 1010px;
+  min-width: 1190px;
+  margin-right: 130px;
+  cursor: pointer;
+ 
+ /*  &:hover{
+      animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    animation-duration: 800ms;
+  } */
+}
+
+/* Варіант №1 для галереї */
+
+/* .block-col-4 {
+  gap: 20px;
+  min-height: 1010px;
+  width: 660px;
+}
+.block-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+
+}
+.block-row-7 {
+  display: flex;
+  gap: 20px;
+}
+.block-col-5 {
+  gap: 20px;
+  min-height: 850px;
+ }
+.block-photo-5 {
+  height: 400px;
+  margin-left: 2px;
+  width: 300px;
+  object-fit: cover;
+}
+.block-photo-5,
+.block-photo-1,
+.block-photo-7-1 {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.block-photo-5:hover,
+.block-photo-1:hover,
+.block-photo-7-1:hover {
+  -webkit-transform: rotate(10deg); 
+          transform: rotate(10deg); 
+
+.block-photo-5-1 {
+  height: 430px;
+  width: 300px;
+  object-fit: cover;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.block-photo-1 {
+  height: 510px;
+  object-fit: cover;
+  width: 340px;
+  
+}
+.block-col-6 {
+  gap: 20px;
+  min-height: 850px;
+  width: 340px;
+}
+.flex-container-13 {
+  height: 320px;
+  margin-left: 2px;
+  position: relative;
+  width: 337px;
+}
+
+.block-text-2 {
+  align-self: stretch;
+  letter-spacing: 0;
+  position: relative;
+}
+.block-overlap {
+  align-items: flex-start;
+  display: flex;
+  height: 140px;
+  min-width: 660px;
+  padding: 27px 145px;
+  background-position: 50% 50%;
+  block-size: cover;
+  background: url(../images/gallery/Quinta-Nova-Winery-House-Relais-Chateaux-Hotel-Pinhao-Exterior.jpg) no-repeat ;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.block-overlap-text{
+  font-family: Mr De Haviland;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FAF6D2;
+  letter-spacing: 0;
+  min-height: 84px;
+}
+.block-col-7 {
+  align-items: flex-start;
+  display: flex;
+  gap:18px;
+  height: 850px;
+  min-width: 660px;
+  & p{
+    height: 120px;
+    width: 507px;
+    color: #33230A;
+    font-family: Song Myung;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.block-photo-7 {
+height: 320px;
+width: 510px;
+object-fit: cover;
+&:hover{
+  transform: scale(1.1);
+}
+}
+.block-photo-7-1 {
+  height: 530px;
+  width: 510px;
+  object-fit: cover;
+ }
+.gallery-block-text{
+  color: #33230A;
+  font-family: Song Myung;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+} */
+
+//Варіант №2 для галереї//
+.Gallery {
+  width: 1190px;
+  height: auto; 
+  position: relative;
+ 
+}
+.Property1Default {
+  width: 1190px;
+  height: auto;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+.UnsplashPj1jhhrqd3c {
+  width: 300px;
+  height: 400px;
+  left: 2px;
+  top: 0px;
+  position: absolute;
+  border-radius: 20px;
+  
+}
+.Quintanova0003 {
+  width: 300px;
+  height: 430px;
+  left: 0px;
+  top: 420px; 
+  position: absolute;
+  border-radius: 20px;
+}
+.Unsplash93ccfd84tca {
+  width: 340px;
+  height: 510px;
+  left: 320px;
+  top: 340px;
+  position: absolute;
+  border-radius: 20px;
+}
+.QuintaNovaDeNossaS1180x560 {
+  width: 510px;
+  height: 320px;
+  left: 679px;
+  top: 0px;
+  position: absolute;
+  border-radius: 20px;
+}
+.GettingToKnow {
+  width: 507px;
+  left: 680px;
+  top: 340px;
+  position: absolute;
+  color: #33230A;
+  font-size: 16px;
+  font-family: Song Myung;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Gqb89ivX7fc {
+  width: 510px;
+  height: 530px;
+  left: 680px;
+  top: 480px;
+  position: absolute;
+  border-radius: 20px;
+}
+.QuintaNova {
+  width: 660px;
+  height: 140px;
+  left: 0px;
+  top: 870px;
+  position: absolute;
+  border-radius: 20px;
+}
+.UnmissableExperiences {
+  left: 145px;
+  top: 898px;
+  position: absolute;
+  color: #FAF6D2;
+  font-size: 64px;
+  font-family: Mr De Haviland;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.ThePatamar{
+  width: 337px;
+  left: 322px;
+  top: 1px;
+  position: absolute;
+  color: #33230A;
+  font-size: 16px;
+  font-family: Song Myung;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+ 
+  .Gallery:hover .Property1Default {
+    animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    opacity: 0.8;
+    
+  .UnsplashPj1jhhrqd3c {
+    width: 300px;
+    height: 400px;
+    left: 0px;
+    top: 621px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .Quintanova0003 {
+    width: 300px;
+    height: 430px;
+    left: 0px;
+    top: 0px; 
+    position: absolute;
+    border-radius: 20px;
+  }
+  .Unsplash93ccfd84tca {
+    width: 340px;
+    height: 440px;
+    left: 850px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .QuintaNovaDeNossaS1180x560 {
+    width: 510px;
+    height: 320px;
+    left: 320px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .GettingToKnow {
+    width: 510px;
+    left: 320px;
+    top: 321px;
+    position: absolute;
+    
+  }
+  .Gqb89ivX7fc {
+    width: 518px;
+    height: 405px;
+    left: 353px;
+    top: 621px;
+    position: absolute;
+    
+  }
+  .QuintaNova {
+    width: 1190px;
+    height: 140px;
+    left: 0px;
+    top: 461px;
+    position: absolute;
+    border-radius: 20px;
+  }
+  .UnmissableExperiences {
+    left: 410px;
+    top: 475px;
+    position: absolute;
+    color: #FAF6D2;
+    font-size: 64px;
+    font-family: Mr De Haviland;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .ThePatamar{
+    width: 299px;
+    height: 405px;
+    left: 891px;
+    top: 621px;
+    position: absolute;
+    color: #33230A;
+    font-size: 16px;
+    font-family: Song Myung;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+} 
+
+

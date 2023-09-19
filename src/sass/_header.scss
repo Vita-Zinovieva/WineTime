@@ -1,0 +1,159 @@
+.header {
+  position: relative;
+}
+.header-main {
+  width: 100%;
+  text-align: center;
+}
+
+/* Не коретна вставка логотипу в html, тому можна продублювати вставку через background 
+.header-logo {
+  background: url(../images/svg/vector.svg) no-repeat;
+  object-fit: contain;
+  width: 200px;
+  height: 150px;
+  margin: 50px auto; 
+}   */
+.logo {
+  width: 200px;
+  height: 150px;
+  flex-shrink: 0;
+  margin: 50px auto; 
+  cursor: pointer;
+  fill: rgba(51, 35, 10, 1);
+  transition-property: color;
+}
+.logo:hover {
+  fill: rgba(21, 58, 22, 1);
+  animation-timing-function: ease-out;
+  animation-duration: 300ms;
+  transition-property: color;
+}
+
+
+.headr-wraper {
+  padding: 228px 0 100px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 1800px;
+  height: 1000px;
+  border-radius: 20px;
+  background: url(../images/header.jpg), lightgray 50% / cover no-repeat;
+}
+.title-main {
+  color: #FAF6D2;
+  font-family: Song Myung;
+  font-size: 115px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+.title-havi,
+.title-havi-broun {
+  color: #FAF6D2;
+  font-family: Mr De Haviland;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-text {
+  width: 774px;
+  color: #FAF6D2;
+  font-family: Song Myung;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.header-cards{
+  width: 1005px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 850px;
+  right: 397px;
+}
+.header-card {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid #FAF6D2;
+  background: rgba(255, 255, 255, 0.00);
+  padding: 25px  25px 25px 20px;
+}
+.title-card {
+  position: relative;
+  color: #FAF6D2;
+  font-family: Song Myung;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+.card-text {
+  width: 245px;
+  color: #FAF6D2;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.card-date {
+  color: #FAF6D2;
+  font-family: Song Myung;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 95px;
+}
+.button-box{ 
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.card-button {
+  width: 106px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  &:hover .button-circul {
+    background: rgba(217, 217, 217, 0.1);
+    backdrop-filter: blur(3px);
+  }
+}
+
+
+.book{
+  color: #FAF6D2;
+  font-family: Song Myung;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+.button-circul {
+  backdrop-filter: 4px;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--milk);
+  border-radius: 21px;
+  display: flex;
+  height: 42px;
+  min-width: 42px;
+  margin-top: -1px;
+  padding: 12px 4px;
+  
+}
+.button-arrow {
+  width: 29px;
+  height: 15px;
+}

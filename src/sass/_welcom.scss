@@ -1,0 +1,161 @@
+.welcom-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  width: 1000px;
+  margin: 0 auto 100px;
+}
+.welcom-title-group {
+  width: 448px;
+  height: auto;
+}
+.welcom-title {
+  color: #33230A;
+  font-family: Mr De Haviland;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-align:end;
+  padding:0;
+}
+.welcom-flex{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+.welcom-row-h4{
+  color: #33230A;
+  font-family: Song Myung;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.welcom-row {
+  width: 421px;
+}
+.welcom-row-text,
+.welcom-col-text,
+.welcom-col-text2 {
+  color: var(--broun, #33230A);
+  font-family: Song Myung;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.welcom-row-text {
+  width: 380px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.welcom-col-text{
+  width: 244px;
+  padding: 110px 0 0;
+  font-size: 24px;
+  min-height: 83px;
+  align-self: center;
+}
+.welcom-text {
+  width: 421px;
+  color:  var(--broun); 
+  font-family: Song Myung;
+  font-size: 14px;
+  text-align: start;
+  font-weight: 400;
+  line-height: 120%; 
+  margin-bottom: 47px;
+}
+.card-button.welcom-book {
+  margin-bottom: 90px;
+  margin-left: 300px;
+
+   
+}
+.welcom-book:focus .welcom-button-circul,
+.welcom-book:hover .welcom-button-circul {
+    backdrop-filter: blur(3px);
+  }
+
+.welcom-book {
+  font-family: Song Myung;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.welcom-button-circul {
+  backdrop-filter: blur(4px);
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--broun);
+  border-radius: 21px;
+  display: flex;
+  height: 42px;
+  min-width: 42px;
+  margin-top: -1px;
+  padding: 12px 4px;
+}
+.welcom-button-arrow {
+  width: 29px;
+  height: 15px;
+}
+
+.welcom-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  align-self: flex-end;
+  gap: 13px;
+  height: 595px;
+  flex-wrap: wrap;
+}
+.welcom-photo1 {
+  height: 382px;
+  position: relative;
+  width: 267px;
+  margin-right: 40px;
+  }
+.welcom-photo-vertical1{
+  width: 230px;
+  height: 380px;
+  object-fit: cover;
+  left: 37px;
+  position: absolute;
+  top: 0;
+}
+.welcom-photo-vertical2{
+  height: 231px;
+  width: 65px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 145px;
+
+}
+.welcom-photo2 {
+  align-items: flex-start;  
+  display: flex;
+  flex-direction: column;
+  gap:15px
+}
+.welcom-photo-horizont2{
+  height: 300px;
+  width: 230px;
+}
+.welcom-col-text2{
+  width: 230px;
+  font-size: 20px;
+}
+.welcom-photo-horizont2-2{
+  width: 230px;
+  height: 115px;
+  object-fit: cover;
+}
